@@ -1,0 +1,74 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 600px;
+}
+
+h1 {
+  color: #007bff;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style for links with non-200 status */
+.error-link {
+  color: red;
+}
+/* Style the loading spinner */
+#loading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.spinner {
+  display: inline-block;
+}
+
+.spinner img {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px;
+  margin-right: 10px;
+}
+
+.spinner p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Add animation to the spinner */
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinner img {
+  animation: rotate 1s linear infinite;
+}
+
