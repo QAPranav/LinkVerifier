@@ -30,11 +30,6 @@ function verifyLinks() {
   });
 }
 
-// ... (rest of the code remains the same)
-
-  
- // ... (rest of the code remains the same)
-
 // Function to display the link verification results
 function displayResults(linkResults) {
   const resultsDiv = document.getElementById('results');
